@@ -4,7 +4,10 @@
   "description": "Getting around the 'Access-Control-Allow-Origin' problem",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "0.12.x"
   },
   "repository": {
     "type": "git",

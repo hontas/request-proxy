@@ -2,6 +2,7 @@ var express = require("express");
 var request = require('request');
 
 var app = express();
+app.set('port', (process.env.PORT || 5000));
 
 app.get("/", function (req, res) {
   var query = req.query;
@@ -15,9 +16,6 @@ app.get("/", function (req, res) {
   });
 });
 
-var server = app.listen(5000, function () {
-  var address = server.address();
-  var host = address.address;
-  var port = address.port;
-  console.log("App listening at http://%s:%s", host, port);
+var server = app.listen(app.get('port'), function () {
+  console.log("App listening at http://%s:%s", server.address().address, app.get('port'));
 });
