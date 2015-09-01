@@ -1,0 +1,19 @@
+{
+  "name": "request-proxy",
+  "version": "0.1.0",
+  "description": "Getting around the 'Access-Control-Allow-Origin' problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hontas/request-proxy.git"
+  },
+  "author": "Pontus Lundin <lundin.pontus@gmail.com> (https://github.com/hontas)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hontas/request-proxy/issues"
+  },
+  "homepage": "https://github.com/hontas/request-proxy"
+}
