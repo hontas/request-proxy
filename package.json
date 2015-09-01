@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/hontas/request-proxy",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "request": "^2.61.0"
   }
 }
