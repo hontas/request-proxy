@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hontas/request-proxy/issues"
   },
-  "homepage": "https://github.com/hontas/request-proxy"
+  "homepage": "https://github.com/hontas/request-proxy",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
