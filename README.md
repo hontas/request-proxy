@@ -10,7 +10,9 @@ npm install && npm start
 
 ## Use
 ```html
-$.get('http://localhost:5000?url=XXX', function (response) {});
+fetch('http://localhost:5000?url=XXX')
+  .then((response) => /* handle response */)
+  .catch((error) => /* handle error */);
 ```
 
 Where `XXX` is the address you wish to perform a get request to
